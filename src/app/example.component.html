@@ -1,0 +1,10 @@
+<form [formGroup]="exampleForm" (ngSubmit)="submitForm()">
+  <ion-input
+    appSetName
+    formControlName="username"
+    label="Username"
+    readonly
+    placeholder="Enter username"
+  ></ion-input>
+  <ion-button type="submit">Submit</ion-button>
+</form>
